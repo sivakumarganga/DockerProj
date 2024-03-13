@@ -1,0 +1,34 @@
+version: '3'
+services:
+  web:
+    image: dockerproj-web:latest
+    container_name: webhost
+
+    ports:
+      - "5000:5000"
+
+    environment:
+      - name=value
+    
+    networks:
+      - web-network
+
+    deploy:
+      replicas: 3
+
+  apiservice:
+    image: dockerproj-apiservice:latest
+    container_name: apiservice
+
+    ports:
+      - "5020:5020"
+
+    environment:
+      - name=value
+
+    networks:
+      - web-network
+
+networks:
+  web-network:
+  

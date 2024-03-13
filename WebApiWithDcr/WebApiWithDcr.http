@@ -1,0 +1,6 @@
+@WebApiWithDcr_HostAddress = http://localhost:5280
+
+GET {{WebApiWithDcr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

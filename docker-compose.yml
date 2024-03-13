@@ -1,0 +1,29 @@
+version: '2'
+services:
+  web:
+    build: 
+      context: ./WebApiWithDcr
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+      - 5001:5001
+
+    environment:
+      - name=value
+    links:
+      - apiservice:secondapi
+    depends_on:
+      - apiservice
+
+
+  apiservice:
+    build: 
+      context: ./WebApiSecond
+      dockerfile: /Dockerfile
+
+    ports:
+      - 5020:5020
+      - 5021:5021
+    environment:
+      - name=value
+

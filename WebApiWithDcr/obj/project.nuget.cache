@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "yyQe1drbEEIw9KLpLGiHc5M5g9KAYvrfILx+UYkoLZ1Ecj0522l4A+ZYAOEIAfRyAMRmkLb1FzaR0iGsTUO6Ig==",
+  "success": true,
+  "projectFilePath": "D:\\Delete\\DockerProj\\WebApiWithDcr\\WebApiWithDcr.csproj",
+  "expectedPackageFiles": [
+    "D:\\pkg\\.nuget\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "D:\\pkg\\.nuget\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "D:\\pkg\\.nuget\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "D:\\pkg\\.nuget\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "D:\\pkg\\.nuget\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "D:\\pkg\\.nuget\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "D:\\pkg\\.nuget\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
